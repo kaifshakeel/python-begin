@@ -1,0 +1,16 @@
+dict = {
+    "Tawheed": "Monotheism, that I worship only Allah alone.",
+    "Messeger": "A special human sent by Allah to guide people when they get astray from the right path.",
+    "Qur'an": "A revelation from Allah as a means of guide for this life.",
+    "Purpose": "Purpose of this life is to worship Allah.",
+    "Worship": "Any act which we do according to Qur'an and Sunnah of prophet.",
+    "Sunnah": "The way of doing things according to what Rasoolullah pbuh told",
+    "Qadr": "Decree of Allah or Pre-ordainment.",
+}
+
+print("Enter the word:")
+
+x = input()
+
+print("The Meaning of", x , "is:")
+print(dict.get(x))

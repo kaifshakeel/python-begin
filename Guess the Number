@@ -1,4 +1,4 @@
-n = 18
+n = 23
 g = 9
 c = 0
 
@@ -8,22 +8,10 @@ while (g>0):
     n1 = int(input("Enter the Number: "))
     if g == 0:
         print("Game Over!!! You have run out of guesses.")
-    elif n1 == 17:
+    elif 19 < n1 < 23:
         print("Close!!, but still Smaller than the Number, Try again!", "\n", "Number of Guesses Left:", g)
         continue
-    elif n1 == 16:
-        print("Close!!, but still Smaller than the Number, Try again!", "\n", "Number of Guesses Left:", g)
-        continue
-    elif n1 == 15:
-        print("Close!!, but still Smaller than the Number, Try again!", "\n", "Number of Guesses Left:", g)
-        continue
-    elif n1 == 21:
-        print("Close!!, but still Greater than the Number, Try again!", "\n", "Number of Guesses Left:", g)
-        continue
-    elif n1 == 20:
-        print("Close!!, but still Greater than the Number, Try again!", "\n", "Number of Guesses Left:", g)
-        continue
-    elif n1 == 19:
+    elif 23 < n1 < 26:
         print("Close!!, but still Greater than the Number, Try again!", "\n", "Number of Guesses Left:", g)
         continue
     elif n1 > n:
@@ -32,6 +20,6 @@ while (g>0):
     elif n1 < n:
         print("Smaller than Number, Try again!", "\n", "Number of Guesses Left:", g)
         continue
-    elif n1 == 18:
+    elif n1 == 23:
         print("Congratulations! You have successfully guessed the Correct Number.", "\n", "Number of Guesses taken:", c)
         break

@@ -34,3 +34,4 @@ while (g>0):
         continue
     elif n1 == 18:
         print("Congratulations! You have successfully guessed the Correct Number.", "\n", "Number of Guesses taken:", c)
+        break

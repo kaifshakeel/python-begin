@@ -7,6 +7,7 @@ if b.__bool__():
         print(s*"*")
         s = s + 1
         n = n - 1
+
 else:
     while n>0:
         print(n*"*")
